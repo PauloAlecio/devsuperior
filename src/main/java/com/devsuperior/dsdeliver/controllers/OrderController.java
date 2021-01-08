@@ -32,4 +32,10 @@ public class OrderController {
 
     }
 
+    @PutMapping("/{id}/delivered")
+    public ResponseEntity<OrderDTO>setDelivered(@PathVariable Long id) {
+        OrderDTO orderDTO = service.setDelivered(id);
+        return ResponseEntity.ok(orderDTO);
+    }
+
 }
