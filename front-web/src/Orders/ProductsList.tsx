@@ -17,13 +17,13 @@ function ProductsList({products,selectedProducts,onSelectProduct}:Props){
         <div className="orders-list-container">
             <div className="orders-list-items">
 
-                {products.map(products =>( 
+                {products.map(product =>( 
 
                 <ProductsCard 
-                    key={products.id} 
-                    product={products}
+                    key={product.id} 
+                    product={product}
                     onSelectProduct={onSelectProduct}
-                    isSelected={checkIsSelected(selectedProducts, products)}/>
+                    isSelected={checkIsSelected(selectedProducts, product)}/>
 
                 ))}
 
