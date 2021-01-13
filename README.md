@@ -12,6 +12,7 @@ O projeto consiste em um sistema de registro e entrega de pedidos. Utilizamos Ja
 ## Layout web
 ![Web 1](https://github.com/PauloAlecio/dsdeliver-2.0/blob/main/assets/HomeDelivery.png)
 
+## Seleção de Produtos
 ![Web 2](https://github.com/PauloAlecio/dsdeliver-2.0/blob/main/assets/SelecionarProdutos.png)
 
 ## Modelo conceitual
