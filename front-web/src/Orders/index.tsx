@@ -25,7 +25,7 @@ function Orders(){
 
         fetchProducts()
             .then(response => setProducts(response.data))
-            .catch(error => console.log(error));
+            .catch(error => toast.warning("Erro ao listar produto!"));
             
         
 
