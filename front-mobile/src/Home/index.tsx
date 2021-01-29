@@ -6,14 +6,15 @@ import { RectButton } from 'react-native-gesture-handler';
 import Header from '../Header';
 export default function Home() {
 
-    // const navigation = useNavigation();
+    const navigation = useNavigation();
 
     const handleOnPress = () => {
-    //   navigation.navigate('Orders');
+      navigation.navigate('Orders');
     }
 
   return (
     <>
+        <Header/>
         <View style={styles.container}>
             <Image source={require('../assets/deliveryman.png')}/>
             <Text style={styles.title}>
@@ -71,7 +72,7 @@ const styles = StyleSheet.create({
       paddingBottom: 10,
       paddingLeft: 40,
       paddingRight: 40,
-      fontSize: 10,  
+      fontSize: 12,  
       fontWeight: 'bold',
       color: '#FFF',
       letterSpacing: -0.24
