@@ -37,6 +37,7 @@ O projeto consiste em um sistema de registro e entrega de pedidos. Utilizamos Ja
 - ReactJS
 - React Native
 - Axios
+- Expo
 ## Implantação em produção
 - Back end: Heroku
 - Front end web: Netlify
