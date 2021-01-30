@@ -9,8 +9,11 @@ DS Deliver é uma aplicação full stack web e mobile construída durante a 2ª 
 
 O projeto consiste em um sistema de registro e entrega de pedidos. Utilizamos Java com Spring Boot e implantação no Heroku.
 
-## Layout web
-![Web 1](https://github.com/PauloAlecio/dsdeliver-2.0/blob/main/assets/HomeDelivery.png)
+
+## Layout mobile
+![Web 1](https://github.com/PauloAlecio/dsdeliver-2.0/blob/main/front-mobile/src/assets/Layout-Mobile.png)
+
+
 
 ## Seleção de Produtos
 ![Web 2](https://github.com/PauloAlecio/dsdeliver-2.0/blob/main/assets/SelecionarProdutos.png)
